@@ -2,6 +2,8 @@
 # CSV2JSON
 
 A Python module made for converting CSV files to JSON.
+
+visit [github.com/Cursor-Gaming/csv2json](https://github.com/Cursor-Gaming/csv2json) for more information
 """
 
 import json
@@ -23,12 +25,12 @@ class csv2json_file:
     A class for converting CSV files to JSON files.
 
     Args:
-        csv_file (CSVFile): The CSV file to be converted.
-        json_file (JSONFile): The JSON file to be created.
+        csv_file (CSVFile): The CSV file to be read and converted.
+        json_file (JSONFile): The JSON file to be created or overwritten.
 
     Attributes:
-        csv_file (CSVFile): The CSV file to be converted.
-        json_file (JSONFile): The JSON file to be created.
+        csv_file (CSVFile): The CSV file to be read and converted.
+        json_file (JSONFile): The JSON file to be created or overwritten.
     
     Methods:
         convert(*args, **kwargs): Converts the CSV file to JSON file.
