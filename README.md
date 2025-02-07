@@ -38,6 +38,6 @@ csv = """id,first_name,last_name,email,gender,ip_address
 json = csv2json(csv).convert()
 ```
 
-You can give the `.convert` method the arguments `json.dump()` or `json.dumps()` accesps.
+You can give the `.convert` method the arguments `json.dump()` or `json.dumps()` accepts.
 
 Data sample used in the example is from [mockaroo.com](https://www.mockaroo.com/)
